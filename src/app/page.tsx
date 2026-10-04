@@ -1,0 +1,9 @@
+import { HeroSection } from "@/components/marketing/HeroSection";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-zinc-950">
+      <HeroSection />
+    </main>
+  );
+}
